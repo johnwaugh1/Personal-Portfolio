@@ -2,24 +2,25 @@ import { About, Contact, Footer, Header, Projects, TechStack } from "./sections"
 import Nav from "./components/Nav";
 
 const App = () => (
-  <main className="relative">
+  <main className="relative inset-0 -z-10 h-full w-full items-center px-5 py-10 
+  bg-[radial-gradient(125%_125%_at_50%_0%,#030712_50%,#15803d_100%)]">
     <Nav />
-    <section className="xl:padding-l wide:padding-r padding-b">
+    <section className="xl:padding-l wide:padding-r padding-b text-white">
       <Header />
     </section>
-    <section className="padding">
+    <section className="padding text-white">
       <About />
     </section>
-    <section className="padding">
+    <section className="padding text-white">
       <TechStack />
     </section>
-    <section className="padding">
+    <section className="padding text-white">
       <Projects />
     </section>
-    <section className="padding">
+    <section className="padding text-white">
       <Contact />
     </section>
-    <section className="pading-x padding-t pb-8">
+    <section className="pading-x padding-t pb-8 text-white">
       <Footer />
     </section>
   </main>
