@@ -11,7 +11,7 @@ const Header = () => {
       id="home"
       className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container"
     >
-      <div className="pt-48 px-4 md:px-0 z-50 w-full">
+      <div className="pt-60 px-4 md:px-0 z-50 w-full flex flex-col items-center">
         <div className="pt-2 text-center flex items-center justify-center gap-1">
           <div className="w-32 h-32 rounded-full overflow-hidden flex items-center justify-center border-solid border-2">
             <img

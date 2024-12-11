@@ -2,10 +2,10 @@ import { About, Contact, Footer, Header, Projects, TechStack } from "./sections"
 import Nav from "./components/Nav";
 
 const App = () => (
-  <main className="relative inset-0 -z-10 h-full w-full items-center px-5 py-10 
+  <main className="flex flex-col items-center relative inset-0 -z-10 h-full w-full items-center px-5 py-10 
   bg-[radial-gradient(125%_125%_at_50%_0%,#030712_50%,#15803d_100%)]">
     <Nav />
-    <section className="xl:padding-l wide:padding-r padding-b text-white">
+    <section className="border-b-2 border-gray-800 xl:padding-l wide:padding-r text-white">
       <Header />
     </section>
     <section className="padding text-white">
