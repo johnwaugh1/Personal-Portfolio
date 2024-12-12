@@ -1,13 +1,13 @@
 const TechStack = () => {
   return (
-    <section id="techstack" className="w-screen py-16 px-32 text-white">
-      <h1 className="text-3xl font-coda text-center">
+    <section id="techstack" className="w-screen pt-16 px-32 text-white">
+      <h1 className="text-4xl font-coda text-center">
         Tech Stack
       </h1>
       <p className="font-coda text-center text-sm mb-3">
         (Proficient = Green, Familiar = Yellow, Beginner = Red)
       </p>
-      <div className="pt-4 flex flex-wrap gap-2 justify-center items-center">
+      <div className="pt-4 flex flex-wrap gap-2 justify-center items-center font-coda">
         <div className="flex items-center px-2 py-1 bg-forest-green/50 shadow-lg rounded-xl">
           <img src="/src/assets/tech-stack/java.svg" alt="Java" className="filter invert w-10"/>
           <p className="ml-2 mr-1 text-base">Java</p>
