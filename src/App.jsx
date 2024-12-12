@@ -3,7 +3,7 @@ import Nav from "./components/Nav";
 
 const App = () => (
   <main className="flex flex-col items-center relative inset-0 -z-10 h-full w-full items-center px-5 py-10 
-  bg-[radial-gradient(125%_125%_at_50%_0%,#030712_50%,#15803d_100%)]">
+  bg-[radial-gradient(125%_125%_at_50%_0%,#030712_50%,#15803d_100%)] overflow-hidden">
     <Nav />
     <section className="xl:padding-l wide:padding-r text-white">
       <Header />
