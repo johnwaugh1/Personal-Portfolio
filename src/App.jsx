@@ -5,13 +5,13 @@ const App = () => (
   <main className="flex flex-col items-center relative inset-0 -z-10 h-full w-full items-center px-5 py-10 
   bg-[radial-gradient(125%_125%_at_50%_0%,#030712_50%,#15803d_100%)]">
     <Nav />
-    <section className="border-b-2 border-gray-800 xl:padding-l wide:padding-r text-white">
+    <section className="xl:padding-l wide:padding-r text-white">
       <Header />
     </section>
-    <section className="padding text-white">
+    <section className="px-10 text-white">
       <About />
     </section>
-    <section className="padding text-white">
+    <section className="text-white">
       <TechStack />
     </section>
     <section className="padding text-white">

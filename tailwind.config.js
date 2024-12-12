@@ -12,7 +12,7 @@ export default {
       lg: ['18px', '21.94px'],
       xl: ['20px', '24.38px'],
       '2xl': ['24px', '29.26px'],
-      '3xl': ['28px', '50px'],
+      '3xl': ['36px', '50px'],
       '4xl': ['48px', '58px'],
       '8xl': ['96px', '106px']
     },
@@ -22,6 +22,8 @@ export default {
       },
       colors: {
         "forest-green": "#30a14e",
+        "marigold-yellow" : "#ebb538",
+        "coral-red" : "#f54242",
         "light-black": "#2b2b2b",
         "white": "rgba(245, 245, 245)"
       },

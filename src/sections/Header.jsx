@@ -52,17 +52,17 @@ const Header = () => {
         </div>
         <div className="pt-2 text-center flex justify-center gap-6">
           <a href="">
-            <div className="border-2 rounded-full w-20 h-20 flex items-center justify-center">
+            <div className="border-2 border-gray-500 rounded-full w-20 h-20 flex items-center justify-center">
               <FontAwesomeIcon icon={faEnvelope} size="3x" />
             </div>
           </a>
           <a href="">
-            <div className="border-2 rounded-full w-20 h-20 flex items-center justify-center">
+            <div className="border-2 border-gray-500 rounded-full w-20 h-20 flex items-center justify-center">
               <FontAwesomeIcon icon={faGithub} size="3x" />
             </div>
           </a>
           <a href="">
-            <div className="border-2 rounded-full w-20 h-20 flex items-center justify-center">
+            <div className="border-2 border-gray-500 rounded-full w-20 h-20 flex items-center justify-center">
               <FontAwesomeIcon icon={faLinkedin} size="3x" />
             </div>
           </a>
