@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section id="about" className="w-full py-10 items-start max-container border rounded-xl border-white/20 backdrop-blur-sm bg-white/10 shadow-lg">
+    <section id="about" className="w-full py-10 items-start max-container border rounded-xl border-white/20 backdrop-blur-sm bg-white/20 shadow-lg">
       <h1 className="text-4xl text-center font-coda">Hi, I'm John Waugh.</h1>
       <br />
       <p className="px-10 text-2xl text-center font-coda leading-8">

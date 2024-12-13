@@ -2,7 +2,7 @@ import { navLinks } from "../constants";
 
 const Contact = () => {
   return (
-    <section id="contact" className="w-full font-coda">
+    <section id="contact" className="w-full font-coda px-10">
       <div className="w-full py-6 px-10 flex justify-between border rounded-xl border-white/20 backdrop-blur-sm bg-white/10 shadow-lg">
         <div className="pb-1 flex flex-col justify-end">
           <p className="text-6xl">
