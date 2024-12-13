@@ -1,11 +1,16 @@
 const Projects = () => {
   return (
-    <section id="projects" className="w-full py-10 px-64 ">
-      <h1 className="text-4xl text-center font-coda mb-6">Projects</h1>
+    <section id="projects" className="w-full py-10 px-64">
+      <h1 className="text-4xl text-center font-coda mb-8">Projects</h1>
       <div className="grid grid-cols-2 gap-6">
-        <a href="" className="border-2 border-gray-700 rounded-lg flex flex-col justify-between
-        bg-white/20 backdrop-blur-sm shadow-lg">
-          <img src="/src/assets/images/database.jpg" alt="Portfolio" />
+        <a href=""
+          className="border-2 border-gray-700 rounded-lg flex flex-col justify-between
+        bg-white/20 backdrop-blur-sm shadow-lg"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/src/assets/images/database.jpg" alt="Portfolio"
+            className="h-48 w-full object-cover rounded-t-lg" />
           <div className="p-2 flex-grow">
             <h3 className="text-2xl font-coda">Personal Portfolio</h3>
             <p className="text-base font-coda">This is my personal portfolio, where I showcase my projects and skills.</p>
@@ -18,9 +23,14 @@ const Projects = () => {
             </div>
           </div>
         </a>
-        <a href="" className="border-2 border-gray-700 rounded-lg flex flex-col justify-between
-        bg-white/20 backdrop-blur-sm shadow-lg">
-          <img src="/src/assets/images/database.jpg" alt="Portfolio" />
+        <a href="https://github.com/johnwaugh1/Y86-Simulator"
+          className="border-2 border-gray-700 rounded-lg flex flex-col justify-between
+        bg-white/20 backdrop-blur-sm shadow-lg"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/src/assets/images/database.jpg" alt="Portfolio"
+            className="h-48 w-full object-cover rounded-t-lg" />
           <div className="p-2 flex-grow">
             <h3 className="text-2xl font-coda">Y86 ISA Simulator</h3>
             <p className="text-base font-coda">A Y86 ISA simulator written in C/C++. This was a project in which myself and a friend
@@ -35,9 +45,14 @@ const Projects = () => {
             </div>
           </div>
         </a>
-        <a href="" className="border-2 border-gray-700 rounded-lg flex flex-col justify-between
-        bg-white/20 backdrop-blur-sm shadow-lg">
-          <img src="/src/assets/images/database.jpg" alt="Portfolio" />
+        <a href="https://github.com/johnwaugh1/Typed-Lambda-Interpreter"
+          className="border-2 border-gray-700 rounded-lg flex flex-col justify-between
+        bg-white/20 backdrop-blur-sm shadow-lg"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/src/assets/images/database.jpg" alt="Portfolio"
+            className="h-48 w-full object-cover rounded-t-lg" />
           <div className="p-2 flex-grow">
             <h3 className="text-2xl font-coda">Typed Lambda Interpreter</h3>
             <p className="text-base font-coda">A small project which interprets a typed lambda calculus language similar to PCF in Haskell.</p>
@@ -48,9 +63,14 @@ const Projects = () => {
             </div>
           </div>
         </a>
-        <a href="" className="border-2 border-gray-700 rounded-lg flex flex-col justify-between
-        bg-white/20 backdrop-blur-sm shadow-lg">
-          <img src="/src/assets/images/database.jpg" alt="Portfolio" />
+        <a href="https://github.com/johnwaugh1/CS3430-Database-System"
+          className="border-2 border-gray-700 rounded-lg flex flex-col justify-between
+        bg-white/20 backdrop-blur-sm shadow-lg"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/src/assets/images/database.jpg" alt="Portfolio"
+            className="h-48 w-full object-cover rounded-t-lg" />
           <div className="p-2 flex-grow">
             <h3 className="text-2xl font-coda">Database System</h3>
             <p className="text-base font-coda">A database management system designed for a fictional company.</p>

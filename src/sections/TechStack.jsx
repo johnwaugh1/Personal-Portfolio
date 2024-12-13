@@ -1,6 +1,6 @@
 const TechStack = () => {
   return (
-    <section id="techstack" className="w-screen pt-24 px-32 text-white">
+    <section id="techstack" className="w-screen px-32 text-white">
       <h1 className="text-4xl font-coda text-center">
         Tech Stack
       </h1>
