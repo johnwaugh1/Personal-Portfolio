@@ -21,8 +21,8 @@ const TechStack = () => {
           <p className="ml-2 mr-1 text-base">Haskell</p>
         </div>
         <div className="flex items-center px-2 py-1 bg-forest-green/40 backdrop-blur-md border border-white/40 shadow-lg rounded-xl">
-          <img src="/src/assets/tech-stack/github.svg" alt="Github" className="filter invert w-10 p-1"/>
-          <p className="ml-2 mr-1 text-base">Github</p>
+          <img src="/src/assets/tech-stack/github.svg" alt="GitHub" className="filter invert w-10 p-1"/>
+          <p className="ml-2 mr-1 text-base">GitHub</p>
         </div>
         <div className="flex items-center px-2 py-1 bg-marigold-yellow/40 backdrop-blur-md border border-white/40 shadow-lg rounded-xl">
           <img src="/src/assets/tech-stack/mysql.svg" alt="MySQL" className="filter invert w-10 p-1"/>

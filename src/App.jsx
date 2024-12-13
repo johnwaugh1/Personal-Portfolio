@@ -1,4 +1,4 @@
-import { About, Contact, Footer, Header, Projects, TechStack } from "./sections";
+import { About, Contact, Header, Projects, TechStack } from "./sections";
 import Nav from "./components/Nav";
 
 const App = () => (
@@ -30,12 +30,9 @@ const App = () => (
     </section>
     <section
       id="contact"
-      className="max-h-screen padding scroll-mt-96 flex items-center justify-center text-white px-10"
+      className="max-h-screen padding scroll-mt-96 text-white px-10"
     >
       <Contact />
-    </section>
-    <section className="px-10 py-8 text-white">
-      <Footer />
     </section>
   </main>
 );
