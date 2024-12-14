@@ -11,7 +11,7 @@ const Nav = () => {
             <li key={item.label} className="text-center">
               <a
                 href={item.href}
-                className="font-coda leading-normal text-sm sm:text-base md:text-lg text-white 
+                className="font-header leading-normal text-sm sm:text-base md:text-lg text-white 
                 hover:text-forest-green transition-colors duration-500"
               >
                 {item.label}

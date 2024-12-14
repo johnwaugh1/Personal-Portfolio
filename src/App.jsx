@@ -2,41 +2,41 @@ import { About, Contact, Header, Projects, TechStack } from "./sections";
 import Nav from "./components/Nav";
 
 const App = () => (
-  <main className="relative h-full w-full bg-[radial-gradient(ellipse_225%_225%_at_50%_0%,#000_0%,#15803d_100%)] overflow-hidden">
+  <main className="relative flex flex-col space-y-5 h-full w-full bg-[radial-gradient(ellipse_250%_250%_at_50%_0%,#000_0%,#15803d_100%)] overflow-hidden">
     {/* Grid Overlay */}
-    <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.1)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.1)_1px,transparent_1px)] bg-[size:24px_24px] pointer-events-none"></div>
-    
+    <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.075)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.075)_1px,transparent_1px)] bg-[size:24px_24px] pointer-events-none"></div>
+
     {/* Navigation */}
     <Nav />
-    
+
     {/* Sections */}
     <section
       id="home"
-      className="max-h-screen flex flex-col items-center justify-start text-white"
+      className="text-white z-50 w-full flex flex-col 2xl:flex-row justify-center min-h-screen gap-10 max-container px-4 sm:px-6 md:px-10"
     >
       <Header />
     </section>
     <section
       id="about"
-      className="max-h-screen scroll-mt-96 flex flex-col justify-start text-white"
+      className="w-full sm:px-8 md:px-12 lg:px-16 2xl:px-24 lg:scroll-mt-60 2xl:scroll-mt-80 text-white"
     >
       <About />
     </section>
     <section
       id="techstack"
-      className="max-h-screen pt-24 scroll-mt-96 flex items-center justify-center text-white px-10"
+      className="w-full py-10 px-4 sm:px-6 md:px-10 lg:scroll-mt-60 2xl:scroll-mt-80 text-white"
     >
       <TechStack />
     </section>
     <section
       id="projects"
-      className="max-h-screen padding flex flex-col justify-start text-white"
+      className="w-full py-10 px-4 sm:px-6 md:px-10 lg:scroll-mt-32 text-white"
     >
       <Projects />
     </section>
     <section
       id="contact"
-      className="max-h-screen flex flex-col justify-start text-white px-6 py-16"
+      className="w-full font-coda px-4 sm:px-6 md:px-10 pt-6 lg:pb-10 text-white"
     >
       <Contact />
     </section>

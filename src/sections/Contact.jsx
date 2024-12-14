@@ -2,10 +2,13 @@ import { navLinks } from "../constants";
 
 const Contact = () => {
   return (
-    <section id="contact" className="w-full font-coda px-10">
-      <div className="w-full py-6 px-10 flex justify-between border rounded-xl border-white/20 backdrop-blur-sm bg-white/10 shadow-lg">
+    <section
+      id="contact"
+      className="w-full px-4 sm:px-6 md:px-10 pt-6"
+    >
+      <div className="w-full py-6 px-4 sm:px-6 md:px-10 flex flex-col sm:flex-row justify-between border rounded-xl border-white/20 backdrop-blur-[2px] bg-white/10 shadow-xl">
         <div className="pb-1 flex flex-col justify-end">
-          <p className="text-6xl">
+          <p className="text-6xl font-header">
             John
             <br />
             Waugh.
@@ -13,8 +16,8 @@ const Contact = () => {
         </div>
         <div className="flex flex-row space-x-12 mt-3">
           <div className="">
-            <h3 className="text-xl mb-2">Explore</h3>
-            <ul className="flex flex-col text-white/50">
+            <h3 className="text-xl mb-2 font-subheader font-semibold">Explore</h3>
+            <ul className="flex flex-col text-white/50 font-body font-light">
               {navLinks.map((item) => (
                 <li key={item.label} className="">
                   <a
@@ -28,8 +31,8 @@ const Contact = () => {
             </ul>
           </div>
           <div className="">
-            <h3 className="text-xl mb-2">Let's Connect</h3>
-            <ul className="flex flex-col text-white/50">
+            <h3 className="text-xl mb-2 font-subheader font-semibold">Let's Connect</h3>
+            <ul className="flex flex-col text-white/50 font-body font-light">
               <li>
                 <a href="mailto:johnmwaugh21@gmail.com" className="hover:text-forest-green transition-colors">Email</a>
               </li>
@@ -43,7 +46,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="mt-3 px-4 flex justify-between text-white/40">
+      <div className="mt-3 px-4 flex justify-between text-white/40 text-xl font-body font-light">
         <p>@2024</p>
         <p>John Waugh</p>
       </div>

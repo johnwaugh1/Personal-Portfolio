@@ -20,6 +20,9 @@ export default {
     extend: {
       fontFamily: {
         coda: ['Coda', 'sans-serif'],
+        header: ['Michroma', 'sans-serif'],
+        subheader: ['Electrolize', 'sans-serif'],
+        body: ['Kanit', 'sans-serif'],
       },
       colors: {
         "forest-green": "#30a14e",
@@ -31,9 +34,15 @@ export default {
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
       },
-      screens: {
-        "wide": "1440px"
-      }
+      animation: {
+        matrix: 'matrix 1.5s linear infinite',
+      },
+      keyframes: {
+        matrix: {
+          '0%': { opacity: '1', transform: 'translateY(0)' },
+          '100%': { opacity: '0', transform: 'translateY(20px)' },
+        },
+      },
     },
   },
   plugins: [],
