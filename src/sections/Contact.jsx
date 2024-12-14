@@ -22,7 +22,7 @@ const Contact = () => {
                 <li key={item.label} className="">
                   <a
                     href={item.href}
-                    className="hover:text-forest-green transition-colors"
+                    className="hover:text-light-green transition-colors"
                   >
                     {item.label}
                   </a>
@@ -34,13 +34,13 @@ const Contact = () => {
             <h3 className="text-xl mb-2 font-subheader font-semibold">Let's Connect</h3>
             <ul className="flex flex-col text-white/50 font-body font-light">
               <li>
-                <a href="mailto:johnmwaugh21@gmail.com" className="hover:text-forest-green transition-colors">Email</a>
+                <a href="mailto:johnmwaugh21@gmail.com" className="hover:text-light-green transition-colors">Email</a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/john-waugh1/" className="hover:text-forest-green transition-colors">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/john-waugh1/" className="hover:text-light-green transition-colors">LinkedIn</a>
               </li>
               <li>
-                <a href="https://github.com/johnwaugh1" className="hover:text-forest-green transition-colors">GitHub</a>
+                <a href="https://github.com/johnwaugh1" className="hover:text-light-green transition-colors">GitHub</a>
               </li>
             </ul>
           </div>

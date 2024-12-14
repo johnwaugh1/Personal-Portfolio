@@ -2,26 +2,26 @@ const TechStack = () => {
   return (
     <section
       id="techstack"
-      className="w-full px-4 sm:px-6 md:px-10 xl:py-10 text-white"
+      className="w-full px-4 sm:px-6 md:px-10 xl:py-10"
     >
       <h1 className="text-4xl font-subheader text-center">Tech Stack</h1>
       <p className="font-body font-extralight text-center text-xs sm:text-sm mb-3">
         (Proficient = Green, Familiar = Yellow, Beginner = Red)
       </p>
-      <div className="pt-4 flex flex-wrap gap-2 justify-center items-center font-body">
-        <div className="flex items-center px-2 py-1 bg-forest-green/40 backdrop-blur-md border border-white/40 shadow-lg rounded-xl">
+      <div className="pt-4 flex flex-wrap gap-2 justify-center items-center font-body font-light">
+        <div className="flex items-center px-2 py-1 bg-green/40 backdrop-blur-md border border-white/40 shadow-lg rounded-xl">
           <img src="/src/assets/tech-stack/java.svg" alt="Java" className="filter invert w-10 p-1" />
           <p className="ml-2 mr-1 text-base">Java</p>
         </div>
-        <div className="flex items-center px-2 py-1 bg-forest-green/40 backdrop-blur-md border border-white/40 shadow-lg rounded-xl">
+        <div className="flex items-center px-2 py-1 bg-green/40 backdrop-blur-md border border-white/40 shadow-lg rounded-xl">
           <img src="/src/assets/tech-stack/c.svg" alt="C" className="filter invert w-10 p-1" />
           <p className="ml-2 mr-1 text-base">C</p>
         </div>
-        <div className="flex items-center px-2 py-1 bg-forest-green/40 backdrop-blur-md border border-white/40 shadow-lg rounded-xl">
+        <div className="flex items-center px-2 py-1 bg-green/40 backdrop-blur-md border border-white/40 shadow-lg rounded-xl">
           <img src="/src/assets/tech-stack/haskell.svg" alt="Haskell" className="filter invert w-10 p-1" />
           <p className="ml-2 mr-1 text-base">Haskell</p>
         </div>
-        <div className="flex items-center px-2 py-1 bg-forest-green/40 backdrop-blur-md border border-white/40 shadow-lg rounded-xl">
+        <div className="flex items-center px-2 py-1 bg-green/40 backdrop-blur-md border border-white/40 shadow-lg rounded-xl">
           <img src="/src/assets/tech-stack/github.svg" alt="GitHub" className="filter invert w-10 p-1" />
           <p className="ml-2 mr-1 text-base">GitHub</p>
         </div>

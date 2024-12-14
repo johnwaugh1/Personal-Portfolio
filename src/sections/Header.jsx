@@ -11,8 +11,8 @@ const Header = () => {
     >
       <div className="sm:pt-20 md:pt-20 lg:pt-30 2xl:pt-60 w-full flex flex-col items-center text-center">
         {/* Headshot and Intro */}
-        <div className="flex flex-col sm:flex-row items-center gap-4">
-          <div className="2xl:w-32 2xl:h-32 lg:w-28 lg:h-28 rounded-full overflow-hidden border-2 border-solid">
+        <div className="flex flex-col sm:flex-row items-center gap-4 text-white">
+          <div className="2xl:w-32 2xl:h-32 lg:w-28 lg:h-28 rounded-full overflow-hidden border-2 border-solid border-white">
             <img
               src="src/assets/images/headshot.jpg"
               alt="Headshot"
@@ -34,7 +34,7 @@ const Header = () => {
         </div>
 
         {/* Title Section */}
-        <div className="mt-6 font-header font-bold">
+        <div className="mt-6 font-header font-bold text-white">
           <h1 className="text-5xl md:text-6xl lg:text-8xl tracking-wide">SOFTWARE</h1>
           <div className="flex flex-wrap justify-center items-center gap-4">
             <h1 className="text-5xl md:text-6xl lg:text-8xl tracking-wide">DEVELOPER</h1>
@@ -43,7 +43,7 @@ const Header = () => {
         </div>
 
         {/* Social Links */}
-        <div className="2xl:mt-8 lg:mt-4 flex flex-wrap justify-center gap-6">
+        <div className="2xl:mt-8 lg:mt-4 flex flex-wrap justify-center gap-6 text-white">
           {[
             { icon: faEnvelope, href: "mailto:johnmwaugh21@gmail.com" },
             { icon: faGithub, href: "https://github.com/johnwaugh1" },
@@ -51,7 +51,7 @@ const Header = () => {
           ].map(({ icon, href }, index) => (
             <a key={index} href={href} className="group">
               <div className="border border-white/50 rounded-full w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 flex items-center justify-center 
-              group-hover:bg-forest-green/50 transition-colors duration-500 backdrop-blur-sm bg-white/10 shadow-lg">
+              group-hover:bg-green/50 group-hover:text-light-green transition-colors duration-500 backdrop-blur-sm bg-white/10 shadow-lg">
                 <FontAwesomeIcon icon={icon} size="3x" />
               </div>
             </a>

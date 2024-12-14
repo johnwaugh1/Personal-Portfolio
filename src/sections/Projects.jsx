@@ -24,9 +24,9 @@ const Projects = () => {
           </div>
           <div className="p-3">
             <div className="flex flex-wrap gap-2">
-              <span className="font-body bg-forest-green/50 text-foreground px-2 py-1 rounded-md text-xs">React</span>
-              <span className="font-body bg-forest-green/50 text-foreground px-2 py-1 rounded-md text-xs">Tailwind CSS</span>
-              <span className="font-body bg-forest-green/50 text-foreground px-2 py-1 rounded-md text-xs">JavaScript</span>
+              <span className="font-body bg-green/50 text-foreground px-2 py-1 rounded-md text-xs">React</span>
+              <span className="font-body bg-green/50 text-foreground px-2 py-1 rounded-md text-xs">Tailwind CSS</span>
+              <span className="font-body bg-green/50 text-foreground px-2 py-1 rounded-md text-xs">JavaScript</span>
             </div>
           </div>
         </a>
@@ -53,9 +53,9 @@ const Projects = () => {
           </div>
           <div className="p-3">
             <div className="flex flex-wrap gap-2">
-              <span className="font-body bg-forest-green/50 text-foreground px-2 py-1 rounded-md text-xs">C</span>
-              <span className="font-body bg-forest-green/50 text-foreground px-2 py-1 rounded-md text-xs">C++</span>
-              <span className="font-body bg-forest-green/50 text-foreground px-2 py-1 rounded-md text-xs">Y86 Assembly</span>
+              <span className="font-body bg-green/50 text-foreground px-2 py-1 rounded-md text-xs">C</span>
+              <span className="font-body bg-green/50 text-foreground px-2 py-1 rounded-md text-xs">C++</span>
+              <span className="font-body bg-green/50 text-foreground px-2 py-1 rounded-md text-xs">Y86 Assembly</span>
             </div>
           </div>
         </a>
@@ -81,7 +81,7 @@ const Projects = () => {
           </div>
           <div className="p-3">
             <div className="flex flex-wrap gap-2">
-              <span className="font-body bg-forest-green/50 text-foreground px-2 py-1 rounded-md text-xs">Haskell</span>
+              <span className="font-body bg-green/50 text-foreground px-2 py-1 rounded-md text-xs">Haskell</span>
             </div>
           </div>
         </a>
@@ -106,7 +106,7 @@ const Projects = () => {
           </div>
           <div className="p-3">
             <div className="flex flex-wrap gap-2">
-              <span className="font-body bg-forest-green/50 text-foreground px-2 py-1 rounded-md text-xs">MySQL</span>
+              <span className="font-body bg-green/50 text-foreground px-2 py-1 rounded-md text-xs">MySQL</span>
             </div>
           </div>
         </a>

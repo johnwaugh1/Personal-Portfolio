@@ -25,11 +25,14 @@ export default {
         body: ['Kanit', 'sans-serif'],
       },
       colors: {
-        "forest-green": "#30a14e",
+        "black": "#0d0208",
+        "charcoal": "#353535",
+        "white": "#F6F6F6",
+        "dark-green": "#003b00",
+        "green": "#008f11",
+        "light-green": "#00ff41",
         "marigold-yellow" : "#ebb538",
         "coral-red" : "#f54242",
-        "light-black": "#2b2b2b",
-        "white": "rgba(245, 245, 245)"
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'

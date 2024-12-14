@@ -2,7 +2,7 @@ import { About, Contact, Header, Projects, TechStack } from "./sections";
 import Nav from "./components/Nav";
 
 const App = () => (
-  <main className="relative flex flex-col space-y-5 h-full w-full bg-[radial-gradient(ellipse_250%_250%_at_50%_0%,#000_0%,#15803d_100%)] overflow-hidden">
+  <main className="relative flex flex-col space-y-5 h-full w-full bg-[radial-gradient(ellipse_250%_250%_at_50%_0%,#0d0208_0%,#008f11_100%)] overflow-hidden">
     {/* Grid Overlay */}
     <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.075)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.075)_1px,transparent_1px)] bg-[size:24px_24px] pointer-events-none"></div>
 
@@ -12,7 +12,7 @@ const App = () => (
     {/* Sections */}
     <section
       id="home"
-      className="text-white z-50 w-full flex flex-col 2xl:flex-row justify-center min-h-screen gap-10 max-container px-4 sm:px-6 md:px-10"
+      className="z-50 w-full flex flex-col 2xl:flex-row justify-center min-h-screen gap-10 max-container px-4 sm:px-6 md:px-10"
     >
       <Header />
     </section>

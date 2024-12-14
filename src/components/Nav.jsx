@@ -12,7 +12,7 @@ const Nav = () => {
               <a
                 href={item.href}
                 className="font-header leading-normal text-sm sm:text-base md:text-lg text-white 
-                hover:text-forest-green transition-colors duration-500"
+                hover:text-light-green transition-colors duration-500"
               >
                 {item.label}
               </a>
