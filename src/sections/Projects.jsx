@@ -10,10 +10,13 @@ const Projects = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
-            src="/src/assets/images/database.jpg"
-            alt="Portfolio"
+          <video
+            src="/src/assets/videos/portfolio.mp4"
+            alt="Portfolio Demo"
             className="h-48 w-full object-cover rounded-t-lg"
+            autoPlay
+            loop
+            muted
           />
           <div className="p-4 flex-grow">
             <h3 className="text-2xl font-subheader">Personal Portfolio</h3>
@@ -31,7 +34,6 @@ const Projects = () => {
           </div>
         </a>
 
-        {/* Card 2 */}
         <a
           href="https://github.com/johnwaugh1/Y86-Simulator"
           className="border border-white/30 rounded-lg flex flex-col justify-between bg-white/20 backdrop-blur-[2px] shadow-xl"
@@ -60,7 +62,6 @@ const Projects = () => {
           </div>
         </a>
 
-        {/* Card 3 */}
         <a
           href="https://github.com/johnwaugh1/Typed-Lambda-Interpreter"
           className="border border-white/30 rounded-lg flex flex-col justify-between bg-white/20 backdrop-blur-[2px] shadow-xl"
@@ -86,7 +87,6 @@ const Projects = () => {
           </div>
         </a>
 
-        {/* Card 4 */}
         <a
           href="https://github.com/johnwaugh1/CS3430-Database-System"
           className="border border-white/30 rounded-lg flex flex-col justify-between bg-white/20 backdrop-blur-[2px] shadow-xl"
