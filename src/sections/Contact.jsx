@@ -92,6 +92,7 @@ const Contact = () => {
                 <a
                   href="mailto:johnmwaugh21@gmail.com"
                   className="hover:text-light-green transition-colors"
+                  target="_blank" rel="noopener noreferrer"
                 >
                   Email
                 </a>
@@ -100,6 +101,7 @@ const Contact = () => {
                 <a
                   href="https://www.linkedin.com/in/john-waugh1/"
                   className="hover:text-light-green transition-colors"
+                  target="_blank" rel="noopener noreferrer"
                 >
                   LinkedIn
                 </a>
@@ -108,6 +110,7 @@ const Contact = () => {
                 <a
                   href="https://github.com/johnwaugh1"
                   className="hover:text-light-green transition-colors"
+                  target="_blank" rel="noopener noreferrer"
                 >
                   GitHub
                 </a>

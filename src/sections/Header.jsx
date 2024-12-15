@@ -38,7 +38,7 @@ const Header = () => {
           <h1 className="text-5xl md:text-6xl lg:text-8xl tracking-wide">SOFTWARE</h1>
           <div className="flex flex-wrap justify-center items-center gap-4">
             <h1 className="text-5xl md:text-6xl lg:text-8xl tracking-wide">DEVELOPER</h1>
-            <Button label="Contact Me"/>
+            <Button label="Contact Me" link="mailto:johnmwaugh21@gmail.com"/>
           </div>
         </div>
 
@@ -49,7 +49,7 @@ const Header = () => {
             { icon: faGithub, href: "https://github.com/johnwaugh1" },
             { icon: faLinkedin, href: "http://www.linkedin.com/in/john-waugh1" },
           ].map(({ icon, href }, index) => (
-            <a key={index} href={href} className="group">
+            <a key={index} href={href} className="group" target="_blank" rel="noopener noreferrer">
               <div className="border border-white/50 rounded-full w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 flex items-center justify-center 
               group-hover:bg-green/50 group-hover:text-light-green transition-colors duration-500 backdrop-blur-sm bg-white/10 shadow-lg">
                 <FontAwesomeIcon icon={icon} size="3x" />
