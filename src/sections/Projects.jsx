@@ -6,7 +6,8 @@ const Projects = () => {
         {/* Card 1 */}
         <a
           href=""
-          className="border border-white/30 rounded-lg flex flex-col justify-between bg-white/20 backdrop-blur-[2px] shadow-xl"
+          className="border border-white/30 rounded-lg flex flex-col justify-between bg-white/20 backdrop-blur-[2px] shadow-xl
+          hover:scale-105 hover:translate-y-[-10px] transition-all duration-300 ease-in-out"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -36,7 +37,8 @@ const Projects = () => {
 
         <a
           href="https://github.com/johnwaugh1/Y86-Simulator"
-          className="border border-white/30 rounded-lg flex flex-col justify-between bg-white/20 backdrop-blur-[2px] shadow-xl"
+          className="border border-white/30 rounded-lg flex flex-col justify-between bg-white/20 backdrop-blur-[2px] shadow-xl
+          hover:scale-105 hover:translate-y-[-10px] transition-all duration-300 ease-in-out"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -44,7 +46,7 @@ const Projects = () => {
             src="/src/assets/images/y86.jpg"
             alt="Portfolio"
             className="h-48 w-full object-cover rounded-t-lg border-b border-white/30 opacity-90"
-            style={{ objectPosition: "50% 40%"}}
+            style={{ objectPosition: "50% 40%" }}
           />
           <div className="p-4 flex-grow">
             <h3 className="text-2xl font-subheader">Y86 ISA Simulator</h3>
@@ -65,7 +67,8 @@ const Projects = () => {
 
         <a
           href="https://github.com/johnwaugh1/Typed-Lambda-Interpreter"
-          className="border border-white/30 rounded-lg flex flex-col justify-between bg-white/20 backdrop-blur-[2px] shadow-xl"
+          className="border border-white/30 rounded-lg flex flex-col justify-between bg-white/20 backdrop-blur-[2px] shadow-xl
+          hover:scale-105 hover:translate-y-[-10px] transition-all duration-300 ease-in-out"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -90,7 +93,8 @@ const Projects = () => {
 
         <a
           href="https://github.com/johnwaugh1/CS3430-Database-System"
-          className="border border-white/30 rounded-lg flex flex-col justify-between bg-white/20 backdrop-blur-[2px] shadow-xl"
+          className="border border-white/30 rounded-lg flex flex-col justify-between bg-white/20 backdrop-blur-[2px] shadow-xl
+          hover:scale-105 hover:translate-y-[-10px] transition-all duration-300 ease-in-out"
           target="_blank"
           rel="noopener noreferrer"
         >
