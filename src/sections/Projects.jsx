@@ -13,7 +13,7 @@ const Projects = () => {
           <video
             src="/src/assets/videos/portfolio.mp4"
             alt="Portfolio Demo"
-            className="h-48 w-full object-cover rounded-t-lg"
+            className="h-48 w-full object-cover rounded-t-lg border-b border-white/30 opacity-90"
             autoPlay
             loop
             muted
@@ -41,9 +41,10 @@ const Projects = () => {
           rel="noopener noreferrer"
         >
           <img
-            src="/src/assets/images/database.jpg"
+            src="/src/assets/images/y86.jpg"
             alt="Portfolio"
-            className="h-48 w-full object-cover rounded-t-lg"
+            className="h-48 w-full object-cover rounded-t-lg border-b border-white/30 opacity-90"
+            style={{ objectPosition: "50% 40%"}}
           />
           <div className="p-4 flex-grow">
             <h3 className="text-2xl font-subheader">Y86 ISA Simulator</h3>
@@ -69,9 +70,9 @@ const Projects = () => {
           rel="noopener noreferrer"
         >
           <img
-            src="/src/assets/images/database.jpg"
+            src="/src/assets/images/lambdacalc.jpg"
             alt="Typed Lambda Interpreter"
-            className="h-48 w-full object-cover rounded-t-lg"
+            className="h-48 w-full object-cover rounded-t-lg border-b border-white/30 opacity-90"
           />
           <div className="p-4 flex-grow">
             <h3 className="text-2xl font-subheader">Typed Lambda Interpreter</h3>
@@ -96,7 +97,7 @@ const Projects = () => {
           <img
             src="/src/assets/images/database.jpg"
             alt="Database System"
-            className="h-48 w-full object-cover rounded-t-lg"
+            className="h-48 w-full object-cover rounded-t-lg border-b border-white/30 opacity-90"
           />
           <div className="p-4 flex-grow">
             <h3 className="text-2xl font-subheader">Database System</h3>
