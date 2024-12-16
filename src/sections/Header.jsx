@@ -14,7 +14,7 @@ const Header = () => {
         <div className="flex flex-col sm:flex-row items-center gap-4 text-white">
           <div className="2xl:w-32 2xl:h-32 lg:w-28 lg:h-28 rounded-full overflow-hidden border-2 border-solid border-white">
             <img
-              src="src/assets/images/headshot.jpg"
+              src="./assets/images/headshot.jpg"
               alt="Headshot"
               className="object-cover w-full h-full object-[center_-2%]"
             />
@@ -23,7 +23,7 @@ const Header = () => {
             <h1 className="font-subheader font-bold 2xl:text-4xl sm:text-3xl">John Waugh.</h1>
             <p className="flex items-center 2xl:ml-0 lg:ml-3 mt-1 font-body">
               <img
-                src="src/assets/icons/ncflag.png"
+                src="./assets/icons/ncflag.png"
                 alt="NC Flag"
                 width={30}
                 className="inline-block mr-2 rounded-sm"

@@ -12,7 +12,7 @@ const Projects = () => {
           rel="noopener noreferrer"
         >
           <video
-            src="/src/assets/videos/portfolio.mp4"
+            src="./assets/videos/portfolio.mp4"
             alt="Portfolio Demo"
             className="h-48 w-full object-cover rounded-t-lg border-b border-white/30 opacity-90"
             autoPlay
@@ -43,7 +43,7 @@ const Projects = () => {
           rel="noopener noreferrer"
         >
           <img
-            src="/src/assets/images/y86.jpg"
+            src="./assets/images/y86.jpg"
             alt="Portfolio"
             className="h-48 w-full object-cover rounded-t-lg border-b border-white/30 opacity-90"
             style={{ objectPosition: "50% 40%" }}
@@ -73,7 +73,7 @@ const Projects = () => {
           rel="noopener noreferrer"
         >
           <img
-            src="/src/assets/images/lambdacalc.jpg"
+            src="./assets/images/lambdacalc.jpg"
             alt="Typed Lambda Interpreter"
             className="h-48 w-full object-cover rounded-t-lg border-b border-white/30 opacity-90"
           />
@@ -99,7 +99,7 @@ const Projects = () => {
           rel="noopener noreferrer"
         >
           <img
-            src="/src/assets/images/database.jpg"
+            src="./assets/images/database.jpg"
             alt="Database System"
             className="h-48 w-full object-cover rounded-t-lg border-b border-white/30 opacity-90"
           />
