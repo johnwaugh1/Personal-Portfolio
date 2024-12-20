@@ -2,6 +2,7 @@ const Button = ({ label, link }) => {
     return (
         <a
             href={link}
+            download
             target="_blank"
             rel="noopener noreferrer" 
             className="flex justify-center items-center gap-2 px-7 py-4 mt-3 
